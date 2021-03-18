@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cohetes - Typescript</title>
+    <link rel="stylesheet" href="../views/style.css">
+    <script src="../models/cohete.js" defer></script>
+    <script src="../controllers/controller.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Cohetes!</h1>
+    </header>
+        <main>
+        <div>
+            <button onclick="crear1()" type="submit">Crear cohete 1</button>
+            <!-- <button onclick="cohetesArray[0].acelerar()" type="submit">Acelerar cohete 1</button> -->
+            <button id="acelerar1" type="submit">Acelerar cohete 1</button>
+            <button id="frenar1" type="submit">Frenar cohete 1</button>
+            <button onclick="imprimir1()" type="submit">Imprimir cohete 1</button>
+        </div>
+        <div>
+            <button onclick="crear2()" type="submit">Crear cohete 2</button>
+            <button id="acelerar2" type="submit">Acelerar cohete 2</button>
+            <button id="frenar2" type="submit">Frenar cohete 2</button>
+            <button onclick="imprimir2()" type="submit">Imprimir cohete 2</button>
+        </div>
+        <button onclick="imprimirTodos()" type="submit">Imprimir Todos los Cohetes</button>
+        
+    </main>
+    <div id="resultado"></div>
+
+
+
+
+
+</body>
+
+</html>

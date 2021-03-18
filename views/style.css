@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+    box-sizing: border-box;
+
+}
+header {
+    text-align: center;
+}
+main{
+    justify-content: center;
+    display: flex;
+  }
+  
+main > * {
+    margin: auto;
+  }
+
+#resultado {
+    margin: 3em;
+    padding: 1em;
+    border: aqua solid 1px;
+}
+
+button {
+    padding: 1em;
+}
